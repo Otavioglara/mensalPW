@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(233deg, rgba(0,0,0,1) 0%, rgba(130,108,100,1) 100%);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    min-height: 100vh;
+    min-width: 100%;
+}
+.box-one{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 25px;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px rgba(255, 254, 254, 0.693);
+}
+.box-one input{
+ height: 50px;
+ width: 200px;
+ border: 1px solid black;
+ border-radius: 25px;
+ margin-top: 20px;
+ box-shadow: 1px 1px 1px 1px rgba(9, 9, 9, 0.693);
+ text-align: center;
+}
+.box-one button{
+    width: 150px;
+    height: 30px;
+    margin-top:20px;
+    border: none;
+    background-color:rgb(62, 149, 62) ;
+    color: white;
+    border-radius: 25px;
+}
+.box-one button:hover{
+    background-color: green;
+
+}
+.geradorDeImg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.box-two{
+    border:5px solid white;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 25px;
+    
+}
+::placeholder{
+    text-align: center;
+}
+
+img{
+    border-radius: 25px;
+    border:5px solid white;
+    margin: 25px;
+    }
